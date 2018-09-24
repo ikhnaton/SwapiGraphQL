@@ -1,0 +1,8 @@
+const Query = `
+    type Query {
+        planets(filter: String): [Planet]
+        planet(id: Int): Planet
+    }
+`;
+
+module.exports = { Query };

@@ -1,0 +1,20 @@
+const Planet = `
+    type Planet {
+        name: String,
+        rotation_period: Int,
+        orbital_period: Int,
+        diameter: Int,
+        climate: String,
+        gravity: String,
+        terrain: String
+        surface_water: String,
+        population: String,
+        residents: [String],
+        films: [String],
+        created: String,
+        edited: String,
+        url: String
+    }
+`;
+
+module.exports = { Planet };

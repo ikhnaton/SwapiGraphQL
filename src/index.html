@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapi GraphQL Demo by ikhnaton@techie.com</title>
+</head>
+<body>
+    Enter text to filter planet list: <input type="text" name="filterText" id="filterText"/>
+    <button id="allPlanets">Click to view planets</button>
+
+    <style>
+        div#allResults table tr td, div#allResults table tr th {
+            border: 1px solid #e0e0e0;       
+            margin: 0;
+        }
+
+        div#allResults table {
+            border-collapse: collapse;
+        }
+    </style>
+    <br/><br/><br/>
+    <div id="allResults"></div>
+    <script src="bundle.js"></script>
+</body>
+</html>
