@@ -7,7 +7,7 @@
     "prestart": "node_modules/.bin/webpack --config webpack.config.js",
     "test": "test",
     "start": "node index.js",
-    "dev": "node_modules/.bin/concurrently --names \"nodemon,webpack\" -c \"blue,green\" \"node_modules/.bin/nodemon -w index.js\" \"node_modules/.bin/webpack --config webpack.config.js\""
+    "dev": "node_modules/.bin/concurrently --names \"nodemon,webpack\" -c \"blue,green\" \"node_modules/.bin/nodemon -w index.js\" \"node_modules/.bin/webpack --config webpack.config.js --watch\""
   },
   "author": "ikhnaton <ikhnaton@techie.com>",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "axios": "^0.18.0",
     "babel-loader": "^8.0.2",
     "body-parser": "^1.18.3",
-    "configuration-master": "^0.1.1",
+    "configuration-master": "0.1.1",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "express": "^4.16.3",

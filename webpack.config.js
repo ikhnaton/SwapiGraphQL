@@ -24,7 +24,6 @@ const baseConfig = {
 		filename: '[name].js',
 		path: path.join(__dirname, '/dist')
     },
-    watch: true,
 	stats: "errors-only",
 	mode: 'production',
 	module: {
